@@ -1,0 +1,15 @@
+.icon__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon__link {
+  padding: 1rem;
+  background-color: var(--primary-clr-50);
+  border-radius: 0.25rem;
+}
+
+.icon {
+  color: var(--primary-clr);
+}

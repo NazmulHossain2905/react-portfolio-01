@@ -1,0 +1,10 @@
+.nav {
+  background-color: var(--white-clr);
+  padding: 1.5rem;
+}
+
+.nav__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

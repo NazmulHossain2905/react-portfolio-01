@@ -1,0 +1,38 @@
+.lists {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lists li a {
+  color: var(--text-clr-4);
+  transition: 0.4s ease-out;
+  position: relative;
+}
+
+.lists li a:hover {
+  color: var(--primary-clr);
+}
+
+.lists li a.active {
+  color: var(--primary-clr);
+  font-weight: 600;
+}
+
+.lists li a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0.1875rem;
+  background-color: var(--primary-clr);
+  transform: translateY(59px);
+  transition: 0.4s ease-out;
+}
+
+.lists li a:hover::before {
+  width: 100%;
+}
+
+.lists li a.active::before {
+  width: 100%;
+}

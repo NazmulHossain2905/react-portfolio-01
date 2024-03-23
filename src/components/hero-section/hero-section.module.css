@@ -1,0 +1,7 @@
+.hero__container {
+  background-color: var(--secondary-clr-50);
+}
+
+.hero {
+  padding-block: 6.25rem;
+}

@@ -1,7 +1,15 @@
 import React from "react";
 
+import Navigation from "./components/navigation";
+import HeroSection from "./components/hero-section";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Navigation />
+      <HeroSection />
+    </>
+  );
 };
 
 export default App;

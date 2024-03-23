@@ -1,4 +1,5 @@
-/* Reset CSS Start Here */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&display=swap");
+
 *,
 *::before,
 *::after {
@@ -11,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Barlow", sans-serif;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -19,6 +24,7 @@ a {
 button {
   outline: none;
   cursor: pointer;
+  font-family: inherit;
 }
 
 ol,
@@ -29,7 +35,6 @@ ul {
 table {
   border-collapse: collapse;
 }
-/* Reset CSS End Here */
 
 :root {
   --primary-clr: #1777e5;
@@ -41,6 +46,8 @@ table {
   --text-clr-2: #424e60;
   --text-clr-3: #556070;
   --text-clr-4: #697484;
+  --gray-clr-900: #121314;
+  --gray-clr-500: #5e6971;
 }
 
 .container {
