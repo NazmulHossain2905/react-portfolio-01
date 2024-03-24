@@ -1,0 +1,25 @@
+.education__container {
+  padding-block: 6.25rem;
+}
+.education__desc {
+  max-width: 33.125rem;
+  margin-inline: auto;
+  color: var(--text-clr-2);
+  text-align: center;
+  line-height: 1.5rem;
+  margin-block: 1.5rem 3.12rem;
+}
+.content__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.education__wrapper,
+.awards_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.awards_wrapper {
+  gap: 1.5rem;
+}

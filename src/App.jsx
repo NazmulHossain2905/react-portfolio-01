@@ -6,6 +6,7 @@ import WorkedCompany from "./components/worked-company";
 import Experiences from "./components/experiences";
 import FunFact from "./components/fun-fact";
 import About from "./components/about";
+import EducationAndAwards from "./components/education-and-award";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Experiences />
       <FunFact />
       <About />
+      <EducationAndAwards />
     </>
   );
 };
