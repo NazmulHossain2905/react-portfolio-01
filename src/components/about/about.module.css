@@ -1,0 +1,25 @@
+.about__container {
+  padding-block: 6.25rem;
+  background-color: #f0f1f3;
+}
+.about {
+  display: flex;
+  align-items: center;
+  gap: 6.25rem;
+}
+.about__image {
+  width: 35.625rem;
+  height: 31.25rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: start;
+}
+.about__desc {
+  color: var(--text-clr-2);
+  line-height: 1.5rem;
+}

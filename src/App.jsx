@@ -5,6 +5,7 @@ import HeroSection from "./components/hero-section";
 import WorkedCompany from "./components/worked-company";
 import Experiences from "./components/experiences";
 import FunFact from "./components/fun-fact";
+import About from "./components/about";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <WorkedCompany />
       <Experiences />
       <FunFact />
+      <About />
     </>
   );
 };

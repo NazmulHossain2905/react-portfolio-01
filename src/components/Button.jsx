@@ -5,6 +5,7 @@ const StyledButton = styled.button`
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 3.5rem;
