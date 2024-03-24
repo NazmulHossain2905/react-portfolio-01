@@ -4,6 +4,7 @@ import Navigation from "./components/navigation";
 import HeroSection from "./components/hero-section";
 import WorkedCompany from "./components/worked-company";
 import Experiences from "./components/experiences";
+import FunFact from "./components/fun-fact";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <HeroSection />
       <WorkedCompany />
       <Experiences />
+      <FunFact />
     </>
   );
 };

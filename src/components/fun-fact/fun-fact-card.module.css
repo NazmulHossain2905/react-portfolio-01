@@ -1,0 +1,24 @@
+.fun-card {
+  display: flex;
+  gap: 1rem;
+}
+.fun-card__left-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+/* .fun-card__right {
+} */
+.fun-card__title {
+  color: var(--white-clr);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.62rem;
+  /* line-height: 2.5rem; */
+}
+.fun-card__desc {
+  color: #87909d;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}

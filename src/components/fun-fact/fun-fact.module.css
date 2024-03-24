@@ -1,0 +1,10 @@
+.fun-fact__container {
+  padding-block: 6.25rem;
+  background-color: var(--text-clr-1);
+}
+.fun-fact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.875rem;
+}
