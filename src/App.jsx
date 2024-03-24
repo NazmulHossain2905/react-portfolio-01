@@ -3,6 +3,7 @@ import React from "react";
 import Navigation from "./components/navigation";
 import HeroSection from "./components/hero-section";
 import WorkedCompany from "./components/worked-company";
+import Experiences from "./components/experiences";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navigation />
       <HeroSection />
       <WorkedCompany />
+      <Experiences />
     </>
   );
 };

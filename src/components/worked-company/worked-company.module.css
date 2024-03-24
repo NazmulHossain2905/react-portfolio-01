@@ -30,9 +30,4 @@
 }
 .worked__company-wrapper img {
   width: 7.1rem;
-  cursor: pointer;
-  transition: 0.3s ease-out;
-}
-.worked__company-wrapper img:hover {
-  scale: 1.05;
 }

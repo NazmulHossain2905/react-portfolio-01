@@ -1,0 +1,55 @@
+.experiences {
+  padding-bottom: 6.25rem;
+}
+.experiences__content {
+  display: flex;
+  align-items: center;
+  gap: 4.35rem;
+}
+.experiences__desc {
+  max-width: 23.125rem;
+  text-align: center;
+  margin-inline: auto;
+  color: var(--text-clr-2);
+  line-height: 1.5rem;
+  margin-block: 1.5rem 3.12rem;
+}
+.experiences__content {
+  /* background-color: var(--primary-clr-50); */
+}
+.experiences__left {
+  width: 31.25rem;
+  height: 31.25rem;
+  border-radius: 0.25rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.experiences__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.experiences__play-btn {
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background-color: var(--white-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.experiences__play-icon {
+  font-size: 1.5rem;
+  color: var(--primary-clr);
+  margin-left: 3px;
+}
+.experiences__right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
