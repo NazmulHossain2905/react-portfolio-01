@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledButton = styled.button`
+const Button = styled.button`
   padding-inline: 2rem;
   display: flex;
   align-items: center;
@@ -27,13 +27,5 @@ const StyledButton = styled.button`
     color: ${(props) => (props.variant !== "primary" ? "#fff" : "#1777E5")};
   }
 `;
-
-const Button = ({ children, variant, onClick, left, right }) => {
-  return (
-    <StyledButton onClick={onClick} variant={variant}>
-      {left || left} {children} {right || right}
-    </StyledButton>
-  );
-};
 
 export default Button;
