@@ -9,6 +9,7 @@ import About from "./components/about";
 import EducationAndAwards from "./components/education-and-award";
 import ClientsFeedback from "./components/clients-feedback";
 import BlogAndNews from "./components/blog-news";
+import Contact from "./components/contact";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <EducationAndAwards />
       <ClientsFeedback />
       <BlogAndNews />
+      <Contact />
     </>
   );
 };
