@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./nav-menu.module.css";
 
-const NavMenu = () => {
+const NavMenu = ({ variant }) => {
   return (
     <ul className={classes["lists"]}>
       <li>

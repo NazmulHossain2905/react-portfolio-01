@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={classes["footer"]}>
       <div className={`${classes["footer__content"]} container`}>
-        <Navigation />
+        <Navigation variant="footer" />
 
         {/* <hr className={classes["line"]} /> */}
 

@@ -18,10 +18,15 @@
 }
 
 .logo__title {
-  color: var(--gray-clr-900);
   font-size: 1.25rem;
   font-weight: 500;
   text-transform: uppercase;
+}
+.logo__title--header {
+  color: var(--gray-clr-900);
+}
+.logo__title--footer {
+  color: var(--white-clr);
 }
 
 .logo__desc {
