@@ -1,0 +1,11 @@
+.blog-news-main {
+  padding-block: 6.25rem;
+  background-color: #f0f1f3;
+}
+
+.blog__card-wrapper {
+  margin-top: 3.12rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.88rem;
+}
