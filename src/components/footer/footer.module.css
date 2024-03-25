@@ -1,0 +1,17 @@
+.footer {
+  padding-block: 6.25rem 2.5rem;
+  background-color: var(--text-clr-1);
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.line {
+  border: 0;
+  border-top: 1px solid #2b384c;
+}
+.footer__copyright {
+  color: #a5acb5;
+  text-align: center;
+}
