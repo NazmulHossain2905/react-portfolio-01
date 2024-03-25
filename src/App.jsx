@@ -7,6 +7,7 @@ import Experiences from "./components/experiences";
 import FunFact from "./components/fun-fact";
 import About from "./components/about";
 import EducationAndAwards from "./components/education-and-award";
+import ClientsFeedback from "./components/clients-feedback";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <FunFact />
       <About />
       <EducationAndAwards />
+      <ClientsFeedback />
     </>
   );
 };

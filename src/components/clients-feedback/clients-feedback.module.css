@@ -1,0 +1,39 @@
+.clients__container {
+  padding-block: 6.25rem;
+}
+.clients__desc {
+  max-width: 33.125rem;
+  margin-inline: auto;
+  color: var(--text-clr-2);
+  text-align: center;
+  line-height: 1.5rem;
+  margin-block: 1.5rem 3.12rem;
+}
+.clients__feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clients__feedback-content {
+  text-align: center;
+  max-width: 48.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.clients__feedback-text {
+  color: var(--text-clr-1);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.clients__feedback-name {
+  color: var(--text-clr-1);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.clients__feedback-title {
+  color: var(--text-clr-4);
+  font-size: 0.875rem;
+  margin-top: 0.38rem;
+}
