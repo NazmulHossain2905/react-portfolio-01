@@ -25,3 +25,9 @@
   background-color: var(--primary-clr-50);
   color: var(--primary-clr);
 }
+
+@media screen and (max-width: 768px) {
+  .icon__wrapper {
+    display: none;
+  }
+}

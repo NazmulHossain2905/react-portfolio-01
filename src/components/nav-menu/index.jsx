@@ -1,14 +1,14 @@
 import React from "react";
 import classes from "./nav-menu.module.css";
 
-const NavMenu = ({ variant }) => {
+const NavMenu = ({ variant, show }) => {
   return (
     <ul
       className={`${classes["lists"]} ${
         variant === "footer"
           ? classes["lists--footer"]
           : classes["lists--header"]
-      }`}
+      } ${show ? classes["show"] : classes["hide"]}`}
     >
       <li>
         <a className={classes["active"]} href="#home">

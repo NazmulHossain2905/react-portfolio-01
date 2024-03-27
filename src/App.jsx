@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Navigation />
-      <HeroSection />
+      {/* <HeroSection />
       <WorkedCompany />
       <Experiences />
       <FunFact />
@@ -25,7 +25,7 @@ const App = () => {
       <ClientsFeedback />
       <BlogAndNews />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
