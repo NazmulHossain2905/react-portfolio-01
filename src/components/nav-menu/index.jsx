@@ -3,7 +3,13 @@ import classes from "./nav-menu.module.css";
 
 const NavMenu = ({ variant }) => {
   return (
-    <ul className={classes["lists"]}>
+    <ul
+      className={`${classes["lists"]} ${
+        variant === "footer"
+          ? classes["lists--footer"]
+          : classes["lists--header"]
+      }`}
+    >
       <li>
         <a className={classes["active"]} href="#">
           Home

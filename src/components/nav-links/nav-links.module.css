@@ -6,10 +6,22 @@
 
 .icon__link {
   padding: 1rem;
-  background-color: var(--primary-clr-50);
   border-radius: 0.25rem;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
-
-.icon {
+.icon__link--header {
+  background-color: var(--primary-clr-50);
+  color: var(--primary-clr);
+}
+.icon__link--header:hover {
+  background-color: #2b384c;
+  color: #fff;
+}
+.icon__link--footer {
+  background-color: #2b384c;
+  color: #fff;
+}
+.icon__link--footer:hover {
+  background-color: var(--primary-clr-50);
   color: var(--primary-clr);
 }

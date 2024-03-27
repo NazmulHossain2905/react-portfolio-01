@@ -1,15 +1,24 @@
 .nav {
-  padding: 1.5rem;
+  padding-block: 1.5rem;
 }
 .header {
   background-color: var(--white-clr);
 }
 .footer {
   background-color: transparent;
+  padding-block: 0;
 }
 
 .nav__bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+nav.nav__bar--footer {
+  padding-inline: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #2b384c;
 }

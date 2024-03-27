@@ -10,16 +10,23 @@
   position: relative;
 }
 
-.lists li a:hover {
+.lists--header li a:hover {
   color: var(--primary-clr);
 }
+.lists--footer li a:hover {
+  color: var(--white-clr);
+}
 
-.lists li a.active {
+.lists--header li a.active {
   color: var(--primary-clr);
   font-weight: 600;
 }
+.lists--footer li a.active {
+  color: var(--white-clr);
+  font-weight: 600;
+}
 
-.lists li a::before {
+.lists--header li a::before {
   content: "";
   position: absolute;
   width: 0%;

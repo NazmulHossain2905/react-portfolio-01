@@ -4,20 +4,24 @@ import { FaMedium } from "react-icons/fa6";
 
 import classes from "./nav-links.module.css";
 
-const NavLinks = () => {
+const NavLinks = ({ variant }) => {
+  const linkStyle =
+    variant === "footer"
+      ? classes["icon__link--footer"]
+      : classes["icon__link--header"];
   return (
     <div className={classes.icon__wrapper}>
-      <a className={classes.icon__link} href="#">
-        <FaFacebook className={classes.icon} />
+      <a className={`${classes.icon__link} ${linkStyle}`} href="#">
+        <FaFacebook />
       </a>
-      <a className={classes.icon__link} href="#">
-        <FaTwitter className={classes.icon} />
+      <a className={`${classes.icon__link} ${linkStyle}`} href="#">
+        <FaTwitter />
       </a>
-      <a className={classes.icon__link} href="#">
-        <FaLinkedinIn className={classes.icon} />
+      <a className={`${classes.icon__link} ${linkStyle}`} href="#">
+        <FaLinkedinIn />
       </a>
-      <a className={classes.icon__link} href="#">
-        <FaMedium className={classes.icon} />
+      <a className={`${classes.icon__link} ${linkStyle}`} href="#">
+        <FaMedium />
       </a>
     </div>
   );

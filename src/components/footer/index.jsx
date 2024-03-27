@@ -11,7 +11,7 @@ const Footer = () => {
         {/* <hr className={classes["line"]} /> */}
 
         <p className={classes["footer__copyright"]}>
-          &copy; 2022 Winston Potter
+          &copy; 2024 Winston Potter
         </p>
       </div>
     </footer>
