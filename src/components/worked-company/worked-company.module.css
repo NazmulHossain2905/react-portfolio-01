@@ -31,3 +31,19 @@
 .worked__company-wrapper img {
   width: 7.1rem;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .worked__company-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .worked__company-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

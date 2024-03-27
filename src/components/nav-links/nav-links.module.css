@@ -30,4 +30,8 @@
   .icon__wrapper {
     display: none;
   }
+
+  .icon__wrapper--footer {
+    display: flex;
+  }
 }

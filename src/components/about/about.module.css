@@ -8,8 +8,8 @@
   gap: 6.25rem;
 }
 .about__image {
-  width: 35.625rem;
-  height: 31.25rem;
+  max-width: 35.625rem;
+  max-height: 31.25rem;
   border-radius: 0.75rem;
   object-fit: cover;
 }
@@ -22,4 +22,28 @@
 .about__desc {
   color: var(--text-clr-2);
   line-height: 1.5rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .about {
+    gap: 3rem;
+  }
+  .about__image {
+    max-width: 26rem;
+    max-height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .about__image {
+    width: 100%;
+  }
+  .about__content {
+    align-items: stretch;
+  }
 }

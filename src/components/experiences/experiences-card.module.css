@@ -30,3 +30,16 @@
   line-height: 1.5rem;
   margin-top: 0.75rem;
 }
+
+@media screen and (max-width: 425px) {
+  .ex-card {
+    gap: 0;
+    flex-direction: column;
+  }
+  .ex-card__left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

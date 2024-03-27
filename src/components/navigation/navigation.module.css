@@ -1,5 +1,8 @@
 .nav {
   padding-block: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 .header {
   background-color: var(--white-clr);
@@ -39,5 +42,13 @@ hr {
   }
   .nav__bar-menu {
     display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav__bar--footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
   }
 }

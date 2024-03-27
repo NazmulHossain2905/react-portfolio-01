@@ -29,16 +29,19 @@ const Navigation = ({ variant }) => {
         )}
         <nav
           className={`${classes.nav__bar} container ${
-            variant === "footer" && classes["nav__bar--footer"]
+            variant === "footer" &&
+            classes["nav__bar--footer"] + " " + classes["nav__bar--footer"]
           }`}
         >
           <Logo variant={variant} />
           <NavMenu variant={variant} show={show} />
           <NavLinks variant={variant} />
-          <HiMenuAlt1
-            onClick={handleShow}
-            className={classes["nav__bar-menu"]}
-          />
+          {variant !== "footer" && (
+            <HiMenuAlt1
+              onClick={handleShow}
+              className={classes["nav__bar-menu"]}
+            />
+          )}
         </nav>
       </div>
       {variant === "footer" && <hr />}

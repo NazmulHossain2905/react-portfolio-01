@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 }
 .contact-info,
 .book-appointment {
@@ -64,4 +65,11 @@
   color: var(--text-clr-2);
   line-height: 1.5rem;
   margin-block: 0.75rem 2.25rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
 }

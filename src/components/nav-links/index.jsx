@@ -10,7 +10,11 @@ const NavLinks = ({ variant }) => {
       ? classes["icon__link--footer"]
       : classes["icon__link--header"];
   return (
-    <div className={classes.icon__wrapper}>
+    <div
+      className={`${classes.icon__wrapper} ${
+        variant === "footer" && classes["icon__wrapper--footer"]
+      }`}
+    >
       <a className={`${classes.icon__link} ${linkStyle}`} href="#">
         <FaFacebook />
       </a>

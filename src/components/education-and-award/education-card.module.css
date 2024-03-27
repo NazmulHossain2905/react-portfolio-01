@@ -37,3 +37,15 @@
   color: var(--text-clr-4);
   line-height: 1.5rem;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 425px) {
+  .ed-card {
+    gap: 1rem;
+    flex-direction: column;
+    background: #fff;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0 5px #eee;
+  }
+}

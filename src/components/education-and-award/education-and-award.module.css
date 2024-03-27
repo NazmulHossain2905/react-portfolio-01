@@ -23,3 +23,10 @@
 .awards_wrapper {
   gap: 1.5rem;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .content__wrapper {
+    flex-direction: column;
+  }
+}

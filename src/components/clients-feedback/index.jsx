@@ -21,6 +21,11 @@ const Icon = styled.button`
     background-color: var(--primary-clr);
     color: var(--white-clr);
   }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 425px) {
+    display: none;
+  }
 `;
 
 const ClientsFeedback = () => {

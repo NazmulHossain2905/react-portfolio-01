@@ -32,3 +32,10 @@
   color: var(--text-clr-4);
   line-height: 1.5rem;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .award-card {
+    flex-direction: column;
+  }
+}

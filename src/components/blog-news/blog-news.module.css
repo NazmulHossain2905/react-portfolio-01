@@ -9,3 +9,17 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1.88rem;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .blog__card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .blog__card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
