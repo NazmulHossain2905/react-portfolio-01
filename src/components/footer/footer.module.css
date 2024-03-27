@@ -7,10 +7,10 @@
   flex-direction: column;
   gap: 2.5rem;
 }
-.line {
+/* .line {
   border: 0;
   border-top: 1px solid #2b384c;
-}
+} */
 .footer__copyright {
   color: #a5acb5;
   text-align: center;

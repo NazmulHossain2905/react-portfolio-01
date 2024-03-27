@@ -11,15 +11,15 @@ const NavMenu = ({ variant }) => {
       }`}
     >
       <li>
-        <a className={classes["active"]} href="#">
+        <a className={classes["active"]} href="#home">
           Home
         </a>
       </li>
       <li>
-        <a href="#">About</a>
+        <a href="#about">About</a>
       </li>
       <li>
-        <a href="#">Testimonial</a>
+        <a href="#testimonial">Testimonial</a>
       </li>
       <li>
         <a href="#">Project</a>
@@ -31,7 +31,7 @@ const NavMenu = ({ variant }) => {
         <a href="#">Article</a>
       </li>
       <li>
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
   );

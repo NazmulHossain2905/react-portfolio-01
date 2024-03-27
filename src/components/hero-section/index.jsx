@@ -9,7 +9,7 @@ import profile from "../../assets/images/hero-profile.png";
 
 const HeroSection = () => {
   return (
-    <div className={classes.hero__container}>
+    <div className={classes.hero__container} id="home">
       <div className={`${classes.hero} container`}>
         <div className={classes["hero__left"]}>
           <h1 className={classes["hero__title"]}>

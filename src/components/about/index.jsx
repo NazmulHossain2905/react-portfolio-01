@@ -8,7 +8,7 @@ import Button from "../Button";
 
 const About = () => {
   return (
-    <div className={classes["about__container"]}>
+    <div className={classes["about__container"]} id="about">
       <div className={`${classes.about} container`}>
         <img
           className={classes.about__image}

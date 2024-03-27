@@ -25,7 +25,7 @@ const Icon = styled.button`
 
 const ClientsFeedback = () => {
   return (
-    <div className={`${classes.clients__container} container`}>
+    <div className={`${classes.clients__container} container`} id="testimonial">
       <div>
         <Heading center>My clients feedback</Heading>
         <p className={classes["clients__desc"]}>

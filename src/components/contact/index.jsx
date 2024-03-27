@@ -22,7 +22,7 @@ const InfoCard = ({ icon, text, title }) => {
 
 const Contact = () => {
   return (
-    <div className={`${classes.contact} container`}>
+    <div className={`${classes.contact} container`} id="contact">
       <div className={classes["contact-info"]}>
         <Heading>Are you facing any problem, Book an appointment!</Heading>
         <p className={classes["contact__desc"]}>
